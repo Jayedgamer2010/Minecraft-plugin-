@@ -1,0 +1,37 @@
+info:
+  name: "MC Plugins"
+  identifier: "mcplugins"
+  description: "Find, Install and Manage Minecraft Plugins with Ease."
+  flags: ""
+  version: "1.1"
+  target: "beta-2024-08"
+  author: "sarthak77"
+  icon: "mcplugins.png"
+  website: "https://discord.com/invite/sQjuWcDxBY"
+
+admin:
+  view: "view.blade.php"
+  controller: "controller.php"
+  css: ""
+  wrapper: ""
+
+dashboard:
+  css: ""
+  wrapper: ""
+  components: "components"
+
+data:
+  directory: ""
+  public: ""
+  console: ""
+
+requests:
+  views: ""
+  controllers: "controllers"
+  routers:
+    application: ""
+    client: "routes.php"
+    web: ""
+
+database:
+  migrations: ""
